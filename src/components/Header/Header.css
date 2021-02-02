@@ -1,0 +1,41 @@
+.header {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 120px;
+  width: 100%;
+  z-index: 10;
+}
+
+.header__logoImage {
+  height: 20.5px;
+  object-fit: contain;
+  margin-left: 80px;
+  margin-bottom: 18.5px;
+}
+
+.header__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  width: 787px;
+  height: 60px;
+  margin-right: 80px;
+}
+
+.header__listLink {
+  font-family: Museo Sans, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 120%;
+  text-decoration: none;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  font-variant: small-caps;
+
+  /* White */
+  color: #ffffff;
+}
