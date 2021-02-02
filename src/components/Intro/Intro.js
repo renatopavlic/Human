@@ -26,6 +26,9 @@ function Intro() {
             </p>
           </div>
       </div>
+      <a href="#linkTarget">
+      <img src="/images/arrow-down1.png" alt="down" className="intro__arrow" />
+      </a>
     </div>
   )
 }

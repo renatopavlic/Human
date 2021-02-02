@@ -1,12 +1,12 @@
 .intro {
-  height: 100vh;
   position: relative;
   background-color: rgb(7, 38, 63);
+  height: 100vh;
 }
 
 .intro__image {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   object-fit: cover;
   opacity: 0.4;
 }
@@ -77,4 +77,12 @@
 
 .intro__strenght::before {
   content: "---0 ";
+}
+
+.intro__arrow {
+  position: absolute;
+  height: 80px;
+  bottom: 0;
+  left: 50%;
+  margin-bottom: -40px;
 }
