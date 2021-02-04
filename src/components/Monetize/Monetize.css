@@ -67,13 +67,12 @@
     flex-direction: column;
     padding-bottom: 10vh;
     box-shadow: none;
+    max-width: 100%;
   }
 
   .monetize__boxText {
     font-size: 20px;
-    border-right: 1px solid lightgray;
-    border-left: 1px solid lightgray;
-    padding: 0 20px;
+    padding: 10px 20px;
   }
 
   .monetize__subtitle {

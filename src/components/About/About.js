@@ -14,7 +14,7 @@ function About() {
         <p className="about__paragraph">
         We work across the globe. Markets worldwide have different road infrastructure, legal environment and general market conditions. Companies apply different strategies to tackle opportunities. No templates exists that can be universally applied across the board. A tailored solution is the only solution that will fit perfectly. Drop us a note.
         </p>
-        <img src="" alt="map" className="about__mapImage" />
+        <img src="/images/world-map5.png" alt="map" className="about__mapImage" />
       </div>
       <div className="about__bottomInfo">
         <h2 className="about__title">

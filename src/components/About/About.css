@@ -40,6 +40,17 @@
   opacity: 0.64;
 }
 
+.about__topInfo {
+  text-align: center;
+}
+
+.about__mapImage {
+  height: 60vh;
+  width: 50%;
+  object-fit: contain;
+  margin: 10vh 0;
+}
+
 .about__logoBox {
   display: flex;
   flex-wrap: wrap;
@@ -111,6 +122,12 @@
     font-size: 20px;
     padding: 0 20px;
     line-height: 1.5;
+  }
+
+  .about__mapImage {
+    width: 100%;
+    height: 60vh;
+    margin: 0;
   }
 
   .about__logoBox {

@@ -3,6 +3,7 @@
   position: relative;
   display: flex;
   justify-content: center;
+  align-items: flex-end;
 }
 
 .footer__backgroundImage {
@@ -55,22 +56,24 @@
 
 @media only screen and (max-width: 850px) {
   .footer {
-    height: 40vh;
+    height: 30vh;
   }
 
   .footer__image {
-    height: 30vh;
+    height: 20vh;
     width: 90%;
   }
 
   .footer__navigation {
     width: 100%;
+    padding: 10px 0;
   }
 
   .footer__navigation i {
     font-size: 25px;
     margin: 0;
     padding: 0 10px;
+    width: 100%;
   }
 
   .footer__socialLinks {
@@ -80,6 +83,8 @@
   }
 
   .footer__privacy {
-    font-size: 10px;
+    padding-left: 10px;
+    font-size: 14px;
+    max-width: 200px;
   }
 }

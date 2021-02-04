@@ -98,7 +98,7 @@
 
 @media only screen and (max-width: 850px) {
   .cost {
-    height: 225vh;
+    height: 200vh;
   }
 
   .cost__title {
@@ -115,6 +115,7 @@
 
   .cost__row {
     flex-direction: column;
+    max-width: 100%;
   }
 
   .cost__boxText {
