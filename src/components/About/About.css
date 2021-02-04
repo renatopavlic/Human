@@ -1,0 +1,90 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  background-image: url("./blue-map-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about__title {
+  font-family: Museo Sans, sans-serif;
+  font-size: 48px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+  padding: 50px 0;
+}
+
+.about__subtitle {
+  font-family: Museo Sans, sans-serif;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  color: #17a4a4;
+  padding: 50px 0;
+}
+
+.about__paragraph {
+  font-family: Source Sans Pro, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  color: #f2f4f6;
+  opacity: 0.64;
+}
+
+.about__logoBox {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 50%;
+}
+
+.about__logoImage {
+  margin: 10px 20px;
+}
+
+.about__rewards {
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+}
+
+.about__row {
+  display: flex;
+  padding: 10vh 0;
+}
+
+.about__rowTitle {
+  font-family: Museo Sans, sans-serif;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+  flex: 0.4;
+}
+
+.about__rowInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex: 0.6;
+}
+
+.about__rowText {
+  font-family: Source Sans Pro, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 40px;
+  color: #f2f4f6;
+  opacity: 0.64;
+  margin-bottom: 30px;
+}

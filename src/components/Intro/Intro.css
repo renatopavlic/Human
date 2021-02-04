@@ -1,7 +1,7 @@
 .intro {
   position: relative;
+  min-height: 100vh;
   background-color: rgb(7, 38, 63);
-  height: 100vh;
 }
 
 .intro__image {
@@ -9,6 +9,7 @@
   height: 100vh;
   object-fit: cover;
   opacity: 0.4;
+  background-color: rgb(7, 38, 63);
 }
 
 .intro__container {
@@ -63,11 +64,8 @@
   margin-bottom: 40px;
 }
 
-.intro__strenghts {
-}
-
 .intro__strenght {
-  font-family: Source Sans Pro;
+  font-family: Source Sans Pro, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -77,6 +75,7 @@
 
 .intro__strenght::before {
   content: "---0 ";
+  color: gold;
 }
 
 .intro__arrow {
@@ -85,4 +84,58 @@
   bottom: 0;
   left: 50%;
   margin-bottom: -40px;
+}
+
+@media only screen and (max-width: 850px) {
+  .intro {
+    height: 125vh;
+  }
+  .intro__image {
+    height: 30vh;
+  }
+
+  .intro__container {
+    display: block;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    margin-top: 30vh;
+    padding: 0 40px;
+    height: 100%;
+  }
+
+  .intro__perfect {
+    font-size: 48px;
+    margin-left: -5px;
+    letter-spacing: -4px;
+  }
+
+  .intro__insurance {
+    font-size: 48px;
+    letter-spacing: -3px;
+    color: black;
+    margin-top: -60px;
+  }
+
+  .intro__subtitle {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .intro__paragraph {
+    color: #212a3d;
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  .intro__strenght {
+    color: #212a3d;
+    font-size: 20px;
+    line-height: 1.2;
+    margin: 20px 0;
+  }
 }

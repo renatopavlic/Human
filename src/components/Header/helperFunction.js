@@ -8,7 +8,15 @@ const headerSlide = () => {
    // Burger Animation
    burger.classList.toggle("toggle");
   });
- 
 }
 
-export { headerSlide };
+const headerDropdown = () => {
+  const arrow = document.querySelector(".header__arrowDropdown");
+  const dropdown = document.querySelector(".header__dropdown");
+
+  arrow.addEventListener("mouseover", () => {
+    dropdown.classList.toggle("dropdown__active");
+  })
+}
+
+export { headerSlide, headerDropdown };

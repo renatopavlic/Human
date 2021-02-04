@@ -1,7 +1,11 @@
 import './App.css';
+import About from './components/About/About';
+import Cost from './components/Cost/Cost';
+import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import InsuranceProducts from './components/InsuranceProducts/InsuranceProducts';
 import Intro from './components/Intro/Intro';
+import Monetize from './components/Monetize/Monetize';
 
 function App() {
   return (
@@ -9,10 +13,10 @@ function App() {
       <Header />
       <Intro />
       <InsuranceProducts />
-      {/* Section new Categories */}
-      {/* Section Cost */}
-      {/* Monetize */}
-      {/* Footer */}
+      <Cost />
+      <Monetize />
+      <About />
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,36 @@
+.slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -40vh;
+  height: 70vh;
+  width: 60vw;
+}
+
+.slider__image {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  animation: sliderAnimation 1s linear;
+}
+
+.slider__navigation {
+  display: flex;
+  border: 5px solid red;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+@keyframes sliderAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

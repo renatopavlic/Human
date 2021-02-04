@@ -1,0 +1,54 @@
+.monetize {
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.monetize__title {
+  margin-top: 40vh;
+  margin-bottom: 10vh;
+  font-family: Museo Sans, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #212a3d;
+  max-width: 1000px;
+}
+
+.monetize__row {
+  display: flex;
+  max-width: 60vw;
+  margin-bottom: 10vh;
+}
+
+.monetize__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.monetize__boxText {
+  font-family: Source Sans Pro, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #394357;
+}
+
+.monetize__subtitle {
+  font-family: Museo Sans, sans-serif;
+  font-size: 36px;
+  line-height: 60px;
+  text-align: center;
+  color: #17a4a4;
+  padding: 0 10vw 10vh 10vw;
+}
