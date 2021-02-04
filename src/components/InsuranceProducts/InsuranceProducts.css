@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  padding-bottom: 10vh;
 }
 
 .insuranceproducts__mapImage {
@@ -30,6 +31,7 @@
   text-align: center;
   color: #17a4a4;
   padding: 50px 0;
+  margin-top: 10vh;
 }
 
 .insuranceproducts__title {
@@ -89,14 +91,34 @@
   .insuranceproducts__title {
     font-size: 20px;
     line-height: 1.5;
+    color: #212a3d;
   }
 
   .insuranceproducts__subtitle {
-    font-size: 14px;
-    line-height: 1.5;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
   }
 
   .insuranceproducts__paragraph {
-    font-size: 14px;
+    font-size: 20px;
+    color: #212a3d;
+    padding: 0 20px;
+    margin-top: 20px;
+  }
+
+  .insuranceproducts__mapImage {
+    width: 100vw;
+  }
+
+  .insuranceproducts__boxes {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+
+  .insuranceproducts__boxText {
+    font-size: 15px;
   }
 }

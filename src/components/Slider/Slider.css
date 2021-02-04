@@ -8,6 +8,7 @@
   margin-top: -40vh;
   height: 70vh;
   width: 60vw;
+  box-shadow: 0 50px 48px -6px rgba(3, 0, 173, 0.3);
 }
 
 .slider__image {
@@ -24,6 +25,14 @@
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+@media only screen and (max-width: 850px) {
+  .slider {
+    width: 90%;
+    height: 30vh;
+    margin-top: -15vh;
+  }
 }
 
 @keyframes sliderAnimation {

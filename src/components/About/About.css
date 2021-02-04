@@ -7,6 +7,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 10vh;
 }
 
 .about__title {
@@ -87,4 +88,58 @@
   color: #f2f4f6;
   opacity: 0.64;
   margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 850px) {
+  .about {
+    padding-bottom: 10vh;
+  }
+  .about__title {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+
+  .about__subtitle {
+    font-size: 24px;
+    font-weight: 300;
+    padding: 0 20px;
+    margin-bottom: 5vh;
+    line-height: 1.5;
+  }
+
+  .about__paragraph {
+    font-size: 20px;
+    padding: 0 20px;
+    line-height: 1.5;
+  }
+
+  .about__logoBox {
+    max-width: 100%;
+  }
+
+  .about__logoImage {
+    justify-content: space-evenly;
+    transform: scale(0.5);
+    margin: 0;
+  }
+
+  .about__rewards {
+    max-width: 100%;
+    padding-top: 10vh;
+  }
+
+  .about__row {
+    padding: 0 20px;
+    flex-direction: column;
+  }
+
+  .about__rowTitle {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+
+  .about__rowText {
+    font-size: 15px;
+    line-height: 1.3;
+  }
 }

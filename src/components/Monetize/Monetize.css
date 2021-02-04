@@ -25,6 +25,8 @@
   display: flex;
   max-width: 60vw;
   margin-bottom: 10vh;
+  box-shadow: 0 30px 28px -6px rgba(3, 0, 173, 0.3);
+  border-bottom: 8px solid #b4e0e0;
 }
 
 .monetize__box {
@@ -51,4 +53,32 @@
   text-align: center;
   color: #17a4a4;
   padding: 0 10vw 10vh 10vw;
+}
+
+@media only screen and (max-width: 850px) {
+  .monetize__title {
+    font-size: 24px;
+    line-height: 1.4;
+    padding: 0 20px;
+    margin-top: 30vh;
+  }
+
+  .monetize__row {
+    flex-direction: column;
+    padding-bottom: 10vh;
+    box-shadow: none;
+  }
+
+  .monetize__boxText {
+    font-size: 20px;
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    padding: 0 20px;
+  }
+
+  .monetize__subtitle {
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 300;
+  }
 }
