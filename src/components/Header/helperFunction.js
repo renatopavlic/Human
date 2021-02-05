@@ -14,8 +14,9 @@ const headerDropdown = () => {
   const arrow = document.querySelector(".header__arrowDropdown");
   const dropdown = document.querySelector(".header__dropdown");
 
-  arrow.addEventListener("mouseover", () => {
+  arrow.addEventListener("click", () => {
     dropdown.classList.toggle("dropdown__active");
+    arrow.classList.toggle("arrow__active");
   })
 }
 

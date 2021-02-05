@@ -1,22 +1,21 @@
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 import './App.css';
-import About from './components/About/About';
-import Cost from './components/Cost/Cost';
-import Footer from './components/Footer/Footer';
-import Header from './components/Header/Header';
-import InsuranceProducts from './components/InsuranceProducts/InsuranceProducts';
-import Intro from './components/Intro/Intro';
-import Monetize from './components/Monetize/Monetize';
+import Home from './pages/Home/Home';
+import Contact from "./pages/Contact/Contact";
 
 function App() {
   return (
     <div className="app">
-      <Header />
-      <Intro />
-      <InsuranceProducts />
-      <Cost />
-      <Monetize />
-      <About />
-      <Footer />
+      <Router>
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/contact" exact component={Contact} />
+        </Switch>
+      </Router>
     </div>
   );
 }

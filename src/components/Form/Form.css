@@ -1,0 +1,81 @@
+.form {
+  border: 1px solid white;
+  background-image: url("./bg-map.png");
+  padding-left: 60px;
+  height: 740px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 10vw;
+}
+
+.formLabel {
+  font-family: Source Sans Pro, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 40px;
+  color: #394357;
+}
+
+.formInput {
+  background: #ffffff;
+  box-shadow: -10px 30px 32px rgba(15, 123, 138, 0.08);
+  border-radius: 4px;
+  height: 50px;
+  max-width: 480px;
+  padding-left: 20px;
+}
+
+.myInput {
+  padding: 5px 0 65px 20px;
+}
+
+.formCheckbox {
+  margin-right: 20px;
+}
+
+.formText {
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #929fad;
+}
+
+.formBtn {
+  font-family: Museo Sans, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  font-variant: small-caps;
+  color: #ffffff;
+  background: #17a4a4;
+  border: 1px solid #17a4a4;
+  box-sizing: border-box;
+  box-shadow: 0px 16px 32px rgba(23, 164, 164, 0.16);
+  border-radius: 4px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 60px;
+}
+
+.formBtn:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1200px) {
+  .form {
+    width: 100%;
+    margin: 0;
+  }
+
+  .formInput,
+  .formText,
+  .formBtn {
+    max-width: 300px;
+  }
+}

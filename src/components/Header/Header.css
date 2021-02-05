@@ -35,7 +35,20 @@
   letter-spacing: 0.3em;
   text-transform: uppercase;
   font-variant: small-caps;
-  color: #ffffff;
+  color: white;
+}
+
+.header__listLinkBlack {
+  font-family: Museo Sans, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 120%;
+  text-decoration: none;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  font-variant: small-caps;
+  color: black;
 }
 
 .customItem {
@@ -66,6 +79,16 @@
   color: white;
   top: 0;
   margin: 20px 0 0 50px;
+  transition: all 1s ease;
+}
+
+.arrow__active {
+  position: absolute;
+  color: white;
+  top: 0;
+  margin: 20px 0 0 50px;
+  transform: rotate(180deg);
+  transition: transform 1s ease;
 }
 
 .header__dropdown {

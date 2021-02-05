@@ -1,0 +1,115 @@
+.contact {
+  min-height: 100vh;
+  display: flex;
+}
+
+.contact__container {
+  margin-top: 10vh;
+  display: flex;
+}
+
+.contact__left {
+  flex: 1;
+  padding-left: 80px;
+  padding-top: 80px;
+}
+
+.contact__right {
+  flex: 1;
+  padding-left: 80px;
+  padding-top: 80px;
+}
+
+.contact__get {
+  font-family: Museo Sans, sans-serif;
+  font-size: 96px;
+  color: #929fad;
+  letter-spacing: -10px;
+  z-index: 2;
+}
+
+.contact__touch {
+  letter-spacing: -15px;
+  font-family: Museo Sans, sans-serif;
+  font-size: 144px;
+  color: #212a3d;
+  margin-top: -70px;
+  z-index: 1;
+}
+
+.contact__offices {
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  font-variant: small-caps;
+  color: #17a4a4;
+}
+
+.contact__city {
+  font-family: Museo Sans, sans-serif;
+  font-size: 32px;
+  line-height: 60px;
+  letter-spacing: -0.01em;
+  color: #212a3d;
+  margin-top: 15px;
+}
+
+.contact__adress {
+  font-family: Museo Sans, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 40px;
+  color: #394357;
+}
+
+.contact__phone {
+  font-family: Museo Sans, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 40px;
+  color: #b4e0e0;
+}
+
+@media only screen and (max-width: 1200px) {
+  .contact {
+    height: 100%;
+  }
+  .contact__container {
+    flex-direction: column;
+  }
+
+  .contact__left {
+    padding: 0;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    margin-top: 10vh;
+  }
+
+  .contact__right {
+    padding: 0;
+    margin: 0;
+  }
+
+  .contact__touch {
+    font-size: 40px;
+    letter-spacing: -5px;
+    margin-bottom: 20px;
+  }
+
+  .contact__get {
+    font-size: 30px;
+    letter-spacing: -4px;
+    transform: translateY(-130%);
+  }
+
+  .contact__city {
+    font-size: 24px;
+  }
+
+  .contact__adress,
+  .contact__phone {
+    font-size: 20px;
+  }
+}
