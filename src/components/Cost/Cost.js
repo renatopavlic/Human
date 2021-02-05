@@ -11,19 +11,19 @@ function Cost() {
       Distribute your insurance products directly through digital (smartphone) channels
       </p>
       <div className="cost__row">
-        <div className="cost__box">
+        <div className="cost__box" data-aos="zoom-in">
         <div class="hexagon"></div>
           <h5 className="cost__boxText">
           Quote and Sell Insurance Products (New and Traditional) directly through Company Smartphone technology.
           </h5>
         </div>
-        <div className="cost__box">
+        <div className="cost__box" data-aos="zoom-in">
         <div class="hexagon"></div>
           <h5 className="cost__boxText">
           Quote and Sell Insurance Products (New and Traditional) directly through Company Smartphone technology.
           </h5>
         </div>
-        <div className="cost__box">
+        <div className="cost__box" data-aos="zoom-in">
         <div class="hexagon"></div>
           <h5 className="cost__boxText">
           Quote and Sell Insurance Products (New and Traditional) directly through Company Smartphone technology.

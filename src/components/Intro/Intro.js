@@ -8,13 +8,13 @@ function Intro() {
       <div className="intro__container">
           <h2 className="intro__perfect">Perfect</h2>
           <h1 className="intro__insurance">Insurance</h1>
-          <h3 className="intro__subtitle">
+          <h3 className="intro__subtitle" data-aos="fade-left">
           Risk Prevention through Behavior Based Incentivess
           </h3>
-          <p className="intro__paragraph">
+          <p className="intro__paragraph" data-aos="fade-left">
           Users who display low risk behaviour will get discounts and other benefits of your choice. So far, we have deployed successfully in more than 18 countries around the world.
           </p>
-          <div className="intro__strenghts">
+          <div className="intro__strenghts" data-aos="fade-left">
             <p className="intro__strenght">
             Risk Prevention, through behavior based incentives
             </p>
