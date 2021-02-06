@@ -1,6 +1,7 @@
 .intro {
   position: relative;
-  min-height: 100vh;
+  height: 100%;
+  width: 100%;
   background-color: rgb(7, 38, 63);
 }
 
@@ -19,6 +20,7 @@
   margin-left: 18%;
   margin-top: 15%;
   max-width: 70vw;
+  height: 100%;
 }
 
 .intro__perfect {
@@ -87,20 +89,17 @@
 }
 
 @media only screen and (max-width: 850px) {
-  .intro {
-    height: 140vh;
-  }
   .intro__image {
     height: 30vh;
   }
 
   .intro__container {
+    position: relative;
     display: block;
     background-color: white;
     margin: 0;
     padding: 0;
     max-width: 100%;
-    margin-top: 30vh;
     padding: 0 40px;
     height: 100%;
   }
