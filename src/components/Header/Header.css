@@ -121,16 +121,16 @@
 
 .header__arrowDropdown {
   position: absolute;
-  color: white;
   top: 0;
   margin: 20px 0 0 50px;
   transition: all 1s ease;
   cursor: pointer;
+  color: grey;
 }
 
 .arrow__active {
   position: absolute;
-  color: white;
+  color: grey;
   top: 0;
   margin: 20px 0 0 50px;
   transform: rotate(180deg);
@@ -234,6 +234,20 @@
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
     margin: 0;
+  }
+
+  .myDropdown {
+    text-align: center;
+  }
+
+  .header__arrowDropdown {
+    display: none;
+  }
+
+  .header__dropdown {
+    display: block;
+    height: 300px;
+    width: 200px;
   }
 
   .header__listLink {
