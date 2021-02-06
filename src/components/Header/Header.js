@@ -45,9 +45,9 @@ function Header( { theme }) {
         </li>
       </ul>
       <div class="header__burger">
-      <div class="line1"></div>
-      <div class="line2"></div>
-      <div class="line3"></div>
+      <div class={ theme === "white" ? "line1" : "darkLine1"}></div>
+      <div class={ theme === "white" ? "line2" : "darkLine2"}></div>
+      <div class={ theme === "white" ? "line3" : "darkLine3"}></div>
     </div>
     </div>
   )
