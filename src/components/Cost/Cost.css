@@ -1,5 +1,6 @@
 .cost {
-  height: 150vh;
+  height: 100%;
+  padding-bottom: 50vh;
   background-image: url("./blue-map-bg.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -97,10 +98,6 @@
 }
 
 @media only screen and (max-width: 850px) {
-  .cost {
-    height: 200vh;
-  }
-
   .cost__title {
     font-size: 24px;
     line-height: 1.5;
@@ -119,8 +116,9 @@
   }
 
   .cost__boxText {
-    font-size: 10px;
+    font-size: 13px;
     margin-bottom: 20px;
+    max-width: 500px;
   }
 
   .cost__successTitle {

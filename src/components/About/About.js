@@ -11,7 +11,7 @@ function About() {
         <h3 className="about__subtitle">
         Over 20 connected insurance projects in various markets
         </h3>
-        <p className="about__paragraph">
+        <p className="about__paragraph" data-aos="fade-left">
         We work across the globe. Markets worldwide have different road infrastructure, legal environment and general market conditions. Companies apply different strategies to tackle opportunities. No templates exists that can be universally applied across the board. A tailored solution is the only solution that will fit perfectly. Drop us a note.
         </p>
         <img src="/images/world-map5.png" alt="map" className="about__mapImage" />
@@ -39,7 +39,7 @@ function About() {
         <img src="/images/logos/maritime.png" alt="client-logo" className="about__logoImage" />
       </div>
       <div className="about__rewards">
-        <div className="about__row">
+        <div className="about__row" data-aos="fade-left">
           <h1 className="about__rowTitle">
             ISO <br/> certified
           </h1>
@@ -49,7 +49,7 @@ function About() {
           </p>
           </div>
         </div>
-        <div className="about__row">
+        <div className="about__row" data-aos="fade-right">
           <h1 className="about__rowTitle">
             We've won <br/> already
           </h1>
