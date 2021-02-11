@@ -1,4 +1,5 @@
 import React from 'react';
+import Hexagon from "../Hexagon/Hexagon";
 import "./Cost.css";
 
 function Cost() {
@@ -12,19 +13,19 @@ function Cost() {
       </p>
       <div className="cost__row">
         <div className="cost__box" data-aos="zoom-in">
-        <div class="hexagon"></div>
+          <Hexagon value="1"/>
           <h5 className="cost__boxText">
           Quote and Sell Insurance Products (New and Traditional) directly through Company Smartphone technology.
           </h5>
         </div>
         <div className="cost__box" data-aos="zoom-in">
-        <div class="hexagon"></div>
+          <Hexagon value="2"/>
           <h5 className="cost__boxText">
           Quote and Sell Insurance Products (New and Traditional) directly through Company Smartphone technology.
           </h5>
         </div>
         <div className="cost__box" data-aos="zoom-in">
-        <div class="hexagon"></div>
+          <Hexagon value="3"/>
           <h5 className="cost__boxText">
           Quote and Sell Insurance Products (New and Traditional) directly through Company Smartphone technology.
           </h5>

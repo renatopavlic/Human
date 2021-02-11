@@ -1,0 +1,41 @@
+.myhexagon {
+  position: relative;
+  width: 80px;
+  height: 46.19px;
+  background-color: white;
+  margin: 23.09px 0;
+}
+
+.myhexagon:before,
+.myhexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+}
+
+.myhexagon:before {
+  bottom: 100%;
+  border-bottom: 23.09px solid white;
+}
+
+.myhexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 23.09px solid white;
+}
+
+.hexagon__value {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  font-size: 30px;
+  font-weight: 900;
+  color: #076188;
+}
