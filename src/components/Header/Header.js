@@ -8,15 +8,17 @@ function Header( { theme }) {
   useEffect(() => {
     // Navigation slide
     headerSlide();
+    // Dropdown animation
     headerDropdown();
     
   }, []);
 
-  console.log("Boja je: ", theme)
   return (
     <div className="header">
       <div className="header__logo">
+        <Link to="/">
         <img src={ theme === "white" ? "/images/logo.png" : "/images/logo-black.png"} alt="logo" className="header__logoImage" />
+        </Link>
       </div>
       <ul className="header__list">
         <li className="header__listItem">
@@ -37,11 +39,13 @@ function Header( { theme }) {
         <li className="header__listItem">
         <Link to="/contact" className={ theme === "white" ? "header__listLink" : "header__listLinkBlack"}>Insights</Link>
         </li>
+        <Link to="/contact"  className="header__listLink customLink">
         <li className="header__listItem customItem">
-        <Link to="/contact"  className="header__listLink customLink">Get in touch</Link>
+        Get in touch
         </li>
+        </Link>
         <li className="header__listItem">
-        <Link to="/contact"  className={ theme === "white" ? "header__listLink" : "header__listLinkBlack"}>Deutch</Link>
+        <Link to="/contact" id="header__deutch" className={ theme === "white" ? "header__listLink" : "header__listLinkBlack"}>Deutch</Link>
         </li>
       </ul>
       <div class="header__burger">

@@ -10,6 +10,7 @@
 
 .header__logoImage {
   height: 20.5px;
+  width: 130.44px;
   object-fit: contain;
   margin-left: 80px;
   margin-bottom: 18.5px;
@@ -67,6 +68,7 @@
   left: 0;
   right: 0;
   bottom: 0;
+  padding-bottom: 20px;
   border-bottom: 2px solid #d5bb78;
   transition: all 0.5s ease;
   transform: scaleX(0);
@@ -126,6 +128,7 @@
   transition: all 1s ease;
   cursor: pointer;
   color: grey;
+  height: 8px;
 }
 
 .arrow__active {
@@ -176,6 +179,10 @@
   text-transform: uppercase;
   font-variant: small-caps;
   color: #212a3d;
+}
+
+#header__deutch {
+  color: grey;
 }
 
 .line1,
